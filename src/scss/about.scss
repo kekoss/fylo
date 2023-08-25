@@ -1,0 +1,36 @@
+#about {
+    background-color: var(--main-background);
+    padding-top: 158px;
+    @media (max-width: 575.98px) {
+        padding-top: 120px;
+    }
+}
+.about__content {
+    @media (max-width: 575.98px) {
+        row-gap: 80px;
+    }
+}
+.card {
+    background-color: var(--main-background);
+    color: var(--white); 
+}
+.card-img {
+    @media (max-width: 575.98px) {
+        width: 80px;
+        height: 80px;
+    }
+}
+.card-title {
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Raleway";
+    margin-top: 18px;
+    @media (max-width: 575.98px) {
+        font-size: 18px;
+    }
+}
+.card-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+}

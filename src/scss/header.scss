@@ -1,0 +1,21 @@
+.header__navbar {
+    background-color: var(--intro-background);
+}
+.navbar-brand {
+    img {
+        @media (max-width: 575.98px) {
+            width: 80px;
+            height: 24px;
+        }
+    }
+}
+.nav-link {
+    color: var(--white);
+    &:hover,
+    &:active,
+    &:focus {
+        text-decoration: underline;
+        font-weight: 700;
+        color: var(--white);
+    }
+}

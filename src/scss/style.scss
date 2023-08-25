@@ -1,0 +1,27 @@
+@import "reset.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+// @import fonts
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:regular,700&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Raleway:regular,700@display=swap);
+
+
+@import "variables.scss";
+
+@import "common.scss";
+
+@import "mixins.scss";
+
+@import "header.scss";
+
+// @import sections
+@import "intro.scss";
+
+@import "about.scss";
+
+@import "features.scss";
+
+@import "testimonials.scss";
+
+@import "contact.scss";
+
+@import "footer.scss";
